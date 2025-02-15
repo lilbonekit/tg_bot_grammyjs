@@ -1,0 +1,23 @@
+{
+	"name": "tg_bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@grammyjs/hydrate": "^1.4.1",
+		"dotenv": "^16.4.7",
+		"grammy": "^1.35.0",
+		"nodemon": "^3.1.9"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.0",
+		"@types/node": "^22.13.2",
+		"typescript": "^5.7.3"
+	}
+}
