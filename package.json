@@ -4,8 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "nodemon"
-	},
+    "predeploy": "npm install",
+    "start": "nodemon -r ts-node/register ./index.ts",
+    "postdeploy": "echo 'Deployment finished!'"
+  },
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
